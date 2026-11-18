@@ -14,13 +14,13 @@ const handwriting = Caveat({
 
 
 const cards = [
-  { src: "/ref/girl2.jpg", isVideo: false, caption: "Cutie 🥹" },
-  { src: "/ref/girl3.jpg", isVideo: false, caption: "Baddie 😎" },
-  { src: "/ref/girl4.jpg", isVideo: false, caption: "Pretty ✨" },
+  { src: "/ref/girl2.jpg", isVideo: false, caption: "Cut🥹" },
+  { src: "/ref/girl3.jpg", isVideo: false, caption: "Badie 😎" },
+  { src: "/ref/girl4.jpg", isVideo: false, caption: "Prty ✨" },
   { src: "/ref/girl5.jpg", isVideo: false, caption: "My Love 🤍" },
   { src: "/ref/girl6.jpg", isVideo: false, caption: "Sunshine ☀️" },
   { src: "/ref/girl7.jpg", isVideo: false, caption: "Angel 🪽" },
-  { src: "/ref/girl8.jpg", isVideo: false, caption: "Beautiful 🌸" },
+  { src: "/ref/girl8.jpg", isVideo: false, caption: "Butiful 🌸" },
   { src: "/ref/girl9.jpg", isVideo: false, caption: "Dream Girl 💫" },
   { src: "/ref/girl10.jpg", isVideo: false, caption: "Queen 👑" },
   { src: "/ref/girl11.jpg", isVideo: false, caption: "Always You 🫶" },

@@ -129,7 +129,7 @@ export const HeroSection = () => {
         <div className="mt-1 xs:mt-3 sm:mt-6 shrink-0">
           <div className="h-px w-16 xs:w-20 bg-[#9C7A3F]" />
           <p className="hero-body mt-2 xs:mt-3 sm:mt-6 max-w-sm sm:max-w-sm text-[13px] xs:text-[14px] sm:text-base leading-[1.55] sm:leading-[1.65] text-[#2c2c26]">
-            wishing you a day filled with love, laughter, and all the happiness your heart can hold. May this year bring you endless joy and unforgettable memories. Happy Birthday!
+            wishing aaaaa
           </p>
         </div>
       </div>
