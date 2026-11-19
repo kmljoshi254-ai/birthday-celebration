@@ -38,7 +38,8 @@ type NoteData = {
   id: string;
   title: string;
   text: string;
-  accent: string; // hex, drives wing color + fold mark
+  accent: string;
+  _id?: string;
 };
 
 const DEFAULT_NOTES: NoteData[] = [
@@ -46,36 +47,31 @@ const DEFAULT_NOTES: NoteData[] = [
     "id": "n1",
     "title": "01",
     "text": "Every butterfly escapes... except me. I've been happily in love with you, Sneha, since day one. 🤍",
-    "accent": "#D98E7E",
-    "_id": "6aff013d12fde841338cb3af"
+    "accent": "#D98E7E"
   },
   {
     "id": "n2",
     "title": "02",
     "text": "Is butterfly ki tarah meri har khushi ka raasta bhi aakhir tum tak hi aakar rukta hai, Sneha. 🫶",
-    "accent": "#C9A15E",
-    "_id": "6aff013d12fde841338cb3b0"
+    "accent": "#C9A15E"
   },
   {
     "id": "n3",
     "title": "03",
     "text": "Tumne butterfly ko touch kiya... aur meri heartbeat phir se skip kar gayi, my beautiful girl. 😭❤️",
-    "accent": "#7E9C68",
-    "_id": "6aff013d12fde841338cb3b1"
+    "accent": "#7E9C68"
   },
   {
     "id": "n4",
     "title": "04",
     "text": "Looks like you're really good at catching butterflies... no wonder you caught my heart so effortlessly. ❤️",
-    "accent": "#B27A94",
-    "_id": "6aff013d12fde841338cb3b2"
+    "accent": "#B27A94"
   },
   {
     "id": "n5",
     "title": "05",
     "text": "Happy Birthday to my favorite girl in the world! You own my whole heart forever, Sneha. 🦋✨",
-    "accent": "#7C8FA6",
-    "_id": "6aff013d12fde841338cb3b3"
+    "accent": "#7C8FA6"
   }
 ];
 
