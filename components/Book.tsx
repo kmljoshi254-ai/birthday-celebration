@@ -40,17 +40,17 @@ export const COVER_CONFIG = {
   // Exact VOUGUE Magazine Typography & Text
   masthead: "VOUGUE",
   issue: "ISSUE NO.2026",
-  headlineName: "KITE",
+  headlineName: "SWEETY",
   headlineSub1: "TIMELESS AND",
   headlineSub2: "BEAUTIFUL,",
-  headlineSub3: "THE STORY OF KITE",
+  headlineSub3: "THE STORY OF SWEETY",
   age: "BIRTHDAY",
   editionLine1: "SPECIAL",
   editionLine2: "EDITION",
   featureTag: "FEATURING",
   featureRole: "THE GIRL WHO HAS MY WHOLE HEART",
-  modelName: "KITE",
-  barcode: "KITE2026B",
+  modelName: "SWEETY",
+  barcode: "SWEETY2026B",
 
   // Magazine proportions (1:1.41 authentic Vogue / A4 portrait size)
   pageWidth: 425,
@@ -747,7 +747,7 @@ export default function Book() {
       <MagazineVideoModal
         isOpen={isVideoModalOpen}
         onClose={() => setIsVideoModalOpen(false)}
-        name="Kite"
+        name="Sweety"
       />
     </div>
   );
