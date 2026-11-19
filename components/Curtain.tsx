@@ -91,7 +91,7 @@ interface Remaining {
   seconds: number;
 }
 
-const DEFAULT_TARGET = new Date('2026-08-14T00:00:00+05:30');
+const DEFAULT_TARGET = new Date('2026-12-14T00:00:00+05:30');
 
 async function getRemaining(targetTime: number) {
   const res = await fetch('/api/time', { cache: 'no-store' });
@@ -118,10 +118,10 @@ type UnitKey = 'days' | 'hours' | 'minutes' | 'seconds';
 
 export default function ShowtimeCountdown({
   targetDate,
-  tickerText = 'HAPPY BIRTHDAY KAMAL ·',
-  marqueeTitle = "Kamal's Birthday",
-  marqueeSub = "forever yours, made with all my love for Kamal ❤️",
-  doorsText = 'celebrating Kamal',
+  tickerText = 'HAPPY BIRTHDAY KKK ·',
+  marqueeTitle = "KKK's Birthday",
+  marqueeSub = "forever yours, made with all my love for KKK ❤️",
+  doorsText = 'celebrating KKK',
   songSrc,
   songVolume = 0.6,
   redirectTo,

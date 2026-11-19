@@ -40,17 +40,17 @@ export const COVER_CONFIG = {
   // Exact VOUGUE Magazine Typography & Text
   masthead: "VOUGUE",
   issue: "ISSUE NO.2026",
-  headlineName: "KAMAL",
+  headlineName: "KKK",
   headlineSub1: "TIMELESS AND",
   headlineSub2: "BEAUTIFUL,",
-  headlineSub3: "THE STORY OF KAMAL",
+  headlineSub3: "THE STORY OF KKK",
   age: "BIRTHDAY",
   editionLine1: "SPECIAL",
   editionLine2: "EDITION",
   featureTag: "FEATURING",
   featureRole: "THE GIRL WHO HAS MY WHOLE HEART",
-  modelName: "KAMAL",
-  barcode: "KAMAL2026B",
+  modelName: "KKK",
+  barcode: "KKK2026B",
 
   // Magazine proportions (1:1.41 authentic Vogue / A4 portrait size)
   pageWidth: 425,
@@ -747,7 +747,7 @@ export default function Book() {
       <MagazineVideoModal
         isOpen={isVideoModalOpen}
         onClose={() => setIsVideoModalOpen(false)}
-        name="Kamal"
+        name="KKK"
       />
     </div>
   );

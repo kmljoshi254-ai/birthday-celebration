@@ -144,7 +144,7 @@ function InstagramThemeIcon({ className = "w-4 h-4" }: { className?: string }) {
 export default function MagazineVideoModal({
   isOpen,
   onClose,
-  name = "Kamal",
+  name = "KKK",
 }: MagazineVideoModalProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -304,7 +304,7 @@ export default function MagazineVideoModal({
   const handleShareNative = async () => {
     const shareData = {
       title: `${name}'s Birthday Magazine`,
-      text: `Happy Birthday Kamal! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #Kamal`,
+      text: `Happy Birthday KKK! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #KKK`,
       url: window.location.href,
     };
 
@@ -350,7 +350,7 @@ export default function MagazineVideoModal({
 
   const handleCopyCaption = () => {
     navigator.clipboard.writeText(
-      `Happy Birthday Kamal! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #Kamal`
+      `Happy Birthday KKK! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #KKK`
     );
     setCopiedCaption(true);
     setTimeout(() => setCopiedCaption(false), 2400);
@@ -387,7 +387,7 @@ export default function MagazineVideoModal({
           <div className="flex flex-col">
             <div className="flex items-center gap-2 mb-0.5">
               <span className="text-[10px] font-mono tracking-[0.24em] text-[#9f773a] uppercase font-semibold">
-                ✦ SPECIAL BIRTHDAY ARCHIVE · KAMAL ✦
+                ✦ SPECIAL BIRTHDAY ARCHIVE · KKK ✦
               </span>
             </div>
             <h2 className="text-xl sm:text-2xl font-serif tracking-wide text-[#2b2118] font-semibold">
@@ -458,7 +458,7 @@ export default function MagazineVideoModal({
                 ) : (
                   <>
                     <Volume2 className="w-3.5 h-3.5 text-[#9f773a]" />
-                    <span className="font-semibold">Playing: Kamal Song</span>
+                    <span className="font-semibold">Playing: KKK Song</span>
                   </>
                 )}
               </button>

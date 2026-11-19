@@ -46,7 +46,7 @@ const DEFAULT_NOTES: NoteData[] = [
   {
     "id": "n1",
     "title": "01",
-    "text": "Every butterfly escapes... except me. I've been happily in love with you, Sneha, since day one. 🤍",
+    "text": "ery butterfly escapes... except me. I've been happily in love with you, Sneha, since day one. 🤍",
     "accent": "#D98E7E"
   },
   {
@@ -58,7 +58,7 @@ const DEFAULT_NOTES: NoteData[] = [
   {
     "id": "n3",
     "title": "03",
-    "text": "Tumne butterfly ko touch kiya... aur meri heartbeat phir se skip kar gayi, my beautiful girl. 😭❤️",
+    "text": "umne butterfly ko touch kiya... aur meri heartbeat phir se skip kar gayi, my beautiful girl. 😭❤️",
     "accent": "#7E9C68"
   },
   {
